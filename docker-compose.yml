@@ -22,3 +22,8 @@ services:
       - ./data/postgres/data:/var/lib/postgresql/data/
     env_file:
       - ./dotenv_files/.env
+  adminer:
+    image: adminer
+    restart: unless-stopped
+    ports:
+      - 4000:8080
