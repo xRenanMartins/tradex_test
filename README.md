@@ -1,11 +1,12 @@
 # tradex_test
 
-Desafio técnico para a vaga de Desenvolvedor Fullstack
+## Desafio técnico para a vaga de Desenvolvedor Fullstack
 
-Para startar o projeto:
-
-  docker-compose up -d  
+# *Para startar o projeto:*
   
-  docker-compose run djangoapp python manage.py makemigrations
+  _docker-compose up -d_
   
-  docker-compose run djangoapp python manage.py migrate 
+  _docker-compose run djangoapp python manage.py makemigrations_
+  
+  _docker-compose run djangoapp python manage.py migrate_
+  
