@@ -2,11 +2,15 @@
 
 ## Desafio técnico para a vaga de Desenvolvedor Fullstack
 
-# *Para startar o projeto:*
+### *Para startar o projeto:*
   
   _docker-compose up -d_
   
-  _docker-compose run djangoapp python manage.py makemigrations_
-  
-  _docker-compose run djangoapp python manage.py migrate_
-  
+### Exemplos
+URL api example: [http://127.0.0.1:8000/api/products]
+
+URL admin example: [http://127.0.0.1:8000/admin]
+
+URL Redoc example: [http://127.0.0.1:8000/redoc]
+
+URL Swagger example: [http://127.0.0.1:8000/swagger]
